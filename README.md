@@ -26,11 +26,12 @@ A summary of all datasets used in this study, along with their estimated sizes, 
 
 ### Comparison Analysis
 We first evaluated which mapping tool performed better by testing both on the 5–20 µm size fraction. BWA recovered slightly more reads than Minimap2 overall. Most of the reads missed by Minimap2 belonged to other eukaryotic phytoplankton groups, whereas BWA retrieved a higher number of Trichodesmium reads. Therefore, all he following analyssi has been perfomed using BWA.
-<p float="center">
-  <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/fc9cba0073b20ecc2f90fcbedc8744fbe0272cb5/plots/reads_minimap_bwa.png" width="40%" />
-</p>
 
-![reads minimap vs bwa]()
+<p float="center">
+  <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/fc9cba0073b20ecc2f90fcbedc8744fbe0272cb5/plots/reads_minimap_bwa.png" 
+    width="45%"
+    style="display: block; margin: 0 auto" />
+</p>
 
 #### Comparison between reads counts
 <p float="center">
