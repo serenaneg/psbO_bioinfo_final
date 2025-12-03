@@ -46,8 +46,21 @@ The station-by-station comparison showed good agreement between our results and 
 </p>
 
 ### Scatterplots
+Scatterplots size 0.8-5$\mu$m read counts (left column) and biovolumne (right columns).
 
+Paper's reference
+<p float="center">
+  <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/ddd58bbb8bc30bef6e3ebf72d6028abd000ea485/plots/psbO_vs_flow_counts_08-5um_ref.png" width="50%" />
+  <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/ddd58bbb8bc30bef6e3ebf72d6028abd000ea485/plots/psbO_vs_flow_biovolume_08-5um_ref.png" width=50% />
+ </p> 
 
+Our results
+<p float="center">
+  <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/ddd58bbb8bc30bef6e3ebf72d6028abd000ea485/plots/psbO_vs_flow_counts_08-5um.png" width="50%" />
+  <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/ddd58bbb8bc30bef6e3ebf72d6028abd000ea485/plots/psbO_vs_flow_biovolume_08-5um.png" width=50% />
+ </p> 
+
+ 
 ### Biogeography
 
 
