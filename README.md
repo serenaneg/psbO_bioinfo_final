@@ -40,8 +40,8 @@ We first evaluated which mapping tool performed better by testing both on the 5â
 
 The station-by-station comparison showed good agreement between our results and those reported by the authors. However, not all sample stations were available on the HPC, and due to time and storage constraints, we chose not to download the additional missing samples.
 <p float="center">
-  <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/985f48bdf3a042c69f33a4da3962eec03e01492a/plots/byStation_reads_08-5.png" width="48%" />
-  <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/985f48bdf3a042c69f33a4da3962eec03e01492a/plots/byStation_reads_5-20.png" width="48%" />
-  <img scr="https://github.com/serenaneg/psbO_bioinfo_final/blob/985f48bdf3a042c69f33a4da3962eec03e01492a/plots/byStation_reads_20-180.png" width=48% />
+  <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/985f48bdf3a042c69f33a4da3962eec03e01492a/plots/byStation_reads_08-5.png" width="52%" />
+  <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/985f48bdf3a042c69f33a4da3962eec03e01492a/plots/byStation_reads_5-20.png" width="52%" />
+  <img scr="https://github.com/serenaneg/psbO_bioinfo_final/blob/985f48bdf3a042c69f33a4da3962eec03e01492a/plots/byStation_reads_20-180.png" width=52% />
 </p>
 
