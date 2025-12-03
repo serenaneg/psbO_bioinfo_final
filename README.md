@@ -64,11 +64,11 @@ Our results
 
  Paper's reference
   <p float="center">
-    <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/3d268952dca27fbc64709422bd05c28259ee439c/plots/psbO_vs_optMicr_counts_20-180um_ref.png" width="70%" />
+    <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/3d268952dca27fbc64709422bd05c28259ee439c/plots/psbO_vs_optMicr_counts_20-180um_ref.png" width="80%" />
   </p>
  Our results 
  <p float="center">
-  <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/d1ba4d8e0034e69755e479fdc57ffa5bbd0a4161/plots/psbO_vs_optMicr_counts_20-180um.png" width="70%" />
+  <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/d1ba4d8e0034e69755e479fdc57ffa5bbd0a4161/plots/psbO_vs_optMicr_counts_20-180um.png" width="80%" />
  </p>
  
 ### Biogeography
