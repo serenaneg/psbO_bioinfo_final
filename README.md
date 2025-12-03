@@ -31,5 +31,5 @@ We first evaluated which mapping tool performed better by testing both on the 5â
 #### Comparison between reads counts
 <p float="center">
   <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/fc9cba0073b20ecc2f90fcbedc8744fbe0272cb5/plots/reference_reads.png" width="55%" />
-  <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/fc9cba0073b20ecc2f90fcbedc8744fbe0272cb5/plots/reads_bwa.png" width="50" />
+  <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/fc9cba0073b20ecc2f90fcbedc8744fbe0272cb5/plots/reads_bwa.png" width="50%" />
 </p>
