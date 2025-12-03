@@ -1,0 +1,7 @@
+me: kma
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - kma

@@ -1,0 +1,71 @@
+,Station,Layer,Size fraction (µm),sample,lineage,reads_mapped,rpkm
+466,7,Surface,20-180,metagenome,Diatoms,4.0,7.68219013563565e-05
+467,8,Surface,20-180,metagenome,Diatoms,6.0,0.000132070721384
+468,10,Surface,20-180,metagenome,Diatoms,1.0,3.07323304676032e-05
+469,14,Surface,20-180,metagenome,Diatoms,4.0,0.000122355690417
+470,18,Surface,20-180,metagenome,Diatoms,1.0,3.04437568940063e-05
+471,20,Surface,20-180,metagenome,Diatoms,4.0,0.00010110941766
+472,21,Surface,20-180,metagenome,Diatoms,5.0,0.000110209802656
+473,22,Surface,20-180,metagenome,Diatoms,12.0,0.000257533015842
+474,23,Surface,20-180,metagenome,Diatoms,16.0,0.000245935323926
+475,24,Surface,20-180,metagenome,Diatoms,15.0,0.000477933700556
+476,25,Surface,20-180,metagenome,Diatoms,9.0,0.000281938435105
+477,26,Surface,20-180,metagenome,Diatoms,4.0,0.000126199213988
+1347,7,Surface,20-180,metagenome,Chlorophyta,8.0,0.000104657984548
+1348,8,Surface,20-180,metagenome,Chlorophyta,14.0,0.000202380719841
+1349,10,Surface,20-180,metagenome,Chlorophyta,9.0,0.000260937009003
+1350,11,Surface,20-180,metagenome,Chlorophyta,4.0,9.33973227551087e-05
+1351,12,Surface,20-180,metagenome,Chlorophyta,2.0,3.69792387881235e-05
+1352,14,Surface,20-180,metagenome,Chlorophyta,5.0,0.000180554365647
+1353,17,Surface,20-180,metagenome,Chlorophyta,1.0,2.71643421820786e-05
+1354,19,Surface,20-180,metagenome,Chlorophyta,4.0,0.000101875297068
+1355,20,Surface,20-180,metagenome,Chlorophyta,5.0,0.000128566635324
+1356,21,Surface,20-180,metagenome,Chlorophyta,6.0,0.000124687204376
+1357,22,Surface,20-180,metagenome,Chlorophyta,7.0,0.000208752537601
+1358,23,Surface,20-180,metagenome,Chlorophyta,1.0,2.40136543482873e-05
+1359,30,Surface,20-180,metagenome,Chlorophyta,5.0,0.000145256710015
+2152,7,Surface,20-180,metagenome,Dinoflagellates,20.0,0.000362026893295
+2153,8,Surface,20-180,metagenome,Dinoflagellates,28.0,0.000617651217399
+2154,10,Surface,20-180,metagenome,Dinoflagellates,18.0,0.000484970363137
+2155,11,Surface,20-180,metagenome,Dinoflagellates,5.0,6.41951799298593e-05
+2156,12,Surface,20-180,metagenome,Dinoflagellates,57.0,0.000992341094986
+2157,14,Surface,20-180,metagenome,Dinoflagellates,28.0,0.000743088324447
+2158,17,Surface,20-180,metagenome,Dinoflagellates,16.0,0.000419112169561
+2159,18,Surface,20-180,metagenome,Dinoflagellates,2.0,6.94125379125484e-05
+2160,19,Surface,20-180,metagenome,Dinoflagellates,3.0,5.45761091069255e-05
+2161,20,Surface,20-180,metagenome,Dinoflagellates,16.0,0.000354365885614
+2162,21,Surface,20-180,metagenome,Dinoflagellates,4.0,0.00010942631118
+2163,22,Surface,20-180,metagenome,Dinoflagellates,9.0,0.000271023469276
+2164,23,Surface,20-180,metagenome,Dinoflagellates,16.0,0.000366264919542
+2165,24,Surface,20-180,metagenome,Dinoflagellates,11.0,0.000288484875152
+2166,25,Surface,20-180,metagenome,Dinoflagellates,8.0,0.000187244973768
+2167,26,Surface,20-180,metagenome,Dinoflagellates,5.0,0.000161484735328
+2168,30,Surface,20-180,metagenome,Dinoflagellates,20.0,0.00041790106055
+2884,7,Surface,20-180,metagenome,Other eukaryotic phytoplankton,2.0,3.5720022478743e-05
+2885,8,Surface,20-180,metagenome,Other eukaryotic phytoplankton,11.0,0.000191580914973
+2886,14,Surface,20-180,metagenome,Other eukaryotic phytoplankton,2.0,4.37488713928651e-05
+2887,18,Surface,20-180,metagenome,Other eukaryotic phytoplankton,2.0,6.08875137880126e-05
+2888,22,Surface,20-180,metagenome,Other eukaryotic phytoplankton,2.0,5.39350499639223e-05
+2889,23,Surface,20-180,metagenome,Other eukaryotic phytoplankton,2.0,2.82020824322909e-05
+2890,24,Surface,20-180,metagenome,Other eukaryotic phytoplankton,1.0,3.90695287577866e-05
+2891,26,Surface,20-180,metagenome,Other eukaryotic phytoplankton,2.0,3.95331318037587e-05
+3656,7,Surface,20-180,metagenome,Haptophytes,11.0,0.000189111118848
+3657,8,Surface,20-180,metagenome,Haptophytes,7.0,0.000181466410685
+3658,10,Surface,20-180,metagenome,Haptophytes,2.0,6.14646609352064e-05
+3659,11,Surface,20-180,metagenome,Haptophytes,1.0,2.76822363836546e-05
+3660,12,Surface,20-180,metagenome,Haptophytes,6.0,0.000176841310244
+3661,14,Surface,20-180,metagenome,Haptophytes,3.0,9.81100927770687e-05
+3662,17,Surface,20-180,metagenome,Haptophytes,3.0,9.2488117429458e-05
+3663,18,Surface,20-180,metagenome,Haptophytes,1.0,3.04437568940063e-05
+3664,19,Surface,20-180,metagenome,Haptophytes,1.0,2.53630538905527e-05
+3665,20,Surface,20-180,metagenome,Haptophytes,8.0,0.000230936743806
+3666,21,Surface,20-180,metagenome,Haptophytes,9.0,0.000180699333906
+3667,23,Surface,20-180,metagenome,Haptophytes,2.0,4.45023686087526e-05
+3668,24,Surface,20-180,metagenome,Haptophytes,1.0,3.90695287577866e-05
+3669,26,Surface,20-180,metagenome,Haptophytes,3.0,0.000112136857064
+3670,30,Surface,20-180,metagenome,Haptophytes,4.0,0.000145249428794
+4504,7,Surface,20-180,metagenome,Pelagophytes,1.0,2.47104265092674e-05
+4505,19,Surface,20-180,metagenome,Pelagophytes,2.0,5.44013132604121e-05
+4506,23,Surface,20-180,metagenome,Pelagophytes,2.0,5.18149169051454e-05
+4507,24,Surface,20-180,metagenome,Pelagophytes,1.0,4.15901435163534e-05
+4508,26,Surface,20-180,metagenome,Pelagophytes,4.0,0.000129876154086

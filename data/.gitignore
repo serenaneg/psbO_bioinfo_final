@@ -1,0 +1,2 @@
+# Ignore the raw Illumina paired-end sequencing data for all genomes from the Mediterranean region
+med_genomes/

@@ -1,0 +1,12 @@
+# environment.yaml
+name: python_rpkm
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  # Python version
+  - python=3.12
+
+  # Core data science / numerical libraries
+  - numpy
+  - pandas

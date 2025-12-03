@@ -1,0 +1,48 @@
+,Station,Layer,Size fraction (µm),sample,lineage,reads_mapped,rpkm
+653,6,Surface,5-20,metagenome,Diatoms,1178.0,0.01062428791291
+654,8,Surface,5-20,metagenome,Diatoms,27.0,0.000301925858447
+655,18,Surface,5-20,metagenome,Diatoms,12.0,0.00032398105226
+656,19,Surface,5-20,metagenome,Diatoms,6.0,0.000135012068269
+657,22,Surface,5-20,metagenome,Diatoms,8.0,0.000166949390275
+658,23,Surface,5-20,metagenome,Diatoms,30.0,0.000519603316641
+659,25,Surface,5-20,metagenome,Diatoms,3.0,8.94021565583808e-05
+660,30,Surface,5-20,metagenome,Diatoms,1.0,3.60030433919826e-05
+1529,6,Surface,5-20,metagenome,Chlorophyta,18.0,0.000471037996358
+1530,8,Surface,5-20,metagenome,Chlorophyta,28.0,0.000499428123993
+1531,18,Surface,5-20,metagenome,Chlorophyta,2.0,3.83227339246002e-05
+1532,19,Surface,5-20,metagenome,Chlorophyta,10.0,0.000208722394526
+1533,22,Surface,5-20,metagenome,Chlorophyta,1.0,2.75506338889628e-05
+1534,23,Surface,5-20,metagenome,Chlorophyta,9.0,0.000166743068723
+1535,30,Surface,5-20,metagenome,Chlorophyta,13.0,0.000234242155068
+2337,6,Surface,5-20,metagenome,Dinoflagellates,81.0,0.001263671514708
+2338,8,Surface,5-20,metagenome,Dinoflagellates,96.0,0.002146411273412
+2339,18,Surface,5-20,metagenome,Dinoflagellates,56.0,0.001446667772238
+2340,19,Surface,5-20,metagenome,Dinoflagellates,78.0,0.001746852410613
+2341,22,Surface,5-20,metagenome,Dinoflagellates,8.0,0.000244750608625
+2342,23,Surface,5-20,metagenome,Dinoflagellates,82.0,0.001405199489719
+2343,25,Surface,5-20,metagenome,Dinoflagellates,8.0,0.000195607338737
+2344,30,Surface,5-20,metagenome,Dinoflagellates,55.0,0.001598818052295
+3009,6,Surface,5-20,metagenome,Other eukaryotic phytoplankton,6.0,0.000164546961711
+3010,8,Surface,5-20,metagenome,Other eukaryotic phytoplankton,10.0,0.00013587780914
+3011,18,Surface,5-20,metagenome,Other eukaryotic phytoplankton,1.0,3.57832756524881e-05
+3012,19,Surface,5-20,metagenome,Other eukaryotic phytoplankton,5.0,0.00010612019449
+3013,22,Surface,5-20,metagenome,Other eukaryotic phytoplankton,2.0,3.43532595405586e-05
+3014,23,Surface,5-20,metagenome,Other eukaryotic phytoplankton,13.0,0.000181313932902
+3015,25,Surface,5-20,metagenome,Other eukaryotic phytoplankton,1.0,2.97017131423192e-05
+3016,30,Surface,5-20,metagenome,Other eukaryotic phytoplankton,5.0,0.000170371184448
+3830,6,Surface,5-20,metagenome,Haptophytes,46.0,0.001059143047856
+3831,8,Surface,5-20,metagenome,Haptophytes,36.0,0.000877116342504
+3832,18,Surface,5-20,metagenome,Haptophytes,13.0,0.000358648834973
+3833,19,Surface,5-20,metagenome,Haptophytes,21.0,0.000447073185714
+3834,22,Surface,5-20,metagenome,Haptophytes,10.0,0.000210509875077
+3835,23,Surface,5-20,metagenome,Haptophytes,45.0,0.000787989671336
+3836,25,Surface,5-20,metagenome,Haptophytes,8.0,0.000238504756533
+3837,30,Surface,5-20,metagenome,Haptophytes,31.0,0.000905719574002
+4627,6,Surface,5-20,metagenome,Pelagophytes,12.0,0.000274918249112
+4628,18,Surface,5-20,metagenome,Pelagophytes,2.0,5.91061770010355e-05
+4629,19,Surface,5-20,metagenome,Pelagophytes,6.0,0.000130376264901
+4630,23,Surface,5-20,metagenome,Pelagophytes,2.0,3.8359574866733e-05
+4631,30,Surface,5-20,metagenome,Pelagophytes,1.0,3.38642487350331e-05
+6532,18,Surface,5-20,metagenome,Trichodesmium,10.0,7.24393141257686e-05
+6533,19,Surface,5-20,metagenome,Trichodesmium,21.0,0.000271695387867
+6534,23,Surface,5-20,metagenome,Trichodesmium,7.0,2.87900418585777e-05
