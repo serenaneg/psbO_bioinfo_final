@@ -2,7 +2,7 @@
 
 ## A "robust" approach to estimate relative phytoplankton cell abundances
 
-Metabarcoding of rRNA genes (16S/18S) is widely used to estimate microbial community composition, but is limited by PCR amplification biases caused by mismatches between universal primers and the target sites of certain species, as well as variability in marker gene copy number across taxa, which can lead to poor correlations between observed rRNA gene abundance and actual abundance or biomass. To address these limitations, [Pierella Karlusich et al. [2023]][https://onlinelibrary.wiley.com/doi/epdf/10.1111/1755-0998.13592] proposes a PCR-free sequencing method for evaluating phytoplankton community diversity by using a newly described and verified genetic marker, psbO. PsbO is a single-copy core photosynthetic gene that codes for an extrinsic subunit of photosystem II (PSII). This protein has been shown to be universally present across both prokaryotic and eukaryotic photosynthetic organisms and can be used to assess taxonomy with high fidelity. 
+Metabarcoding of rRNA genes (16S/18S) is widely used to estimate microbial community composition, but is limited by PCR amplification biases caused by mismatches between universal primers and the target sites of certain species, as well as variability in marker gene copy number across taxa, which can lead to poor correlations between observed rRNA gene abundance and actual abundance or biomass. To address these limitations, [Pierella Karlusich et al. (2023)][https://onlinelibrary.wiley.com/doi/epdf/10.1111/1755-0998.13592] proposes a PCR-free sequencing method for evaluating phytoplankton community diversity by using a newly described and verified genetic marker, psbO. PsbO is a single-copy core photosynthetic gene that codes for an extrinsic subunit of photosystem II (PSII). This protein has been shown to be universally present across both prokaryotic and eukaryotic photosynthetic organisms and can be used to assess taxonomy with high fidelity. 
 
 To reproduce the analyses from the original paper—and given the limitations of the available size-fractionated data—we restricted our study to surface samples (upper 5 m) from Mediterranean Tara Oceans stations. We first processed the 5–20 µm size fraction by mapping metagenomic reads to the psbO gene database provided by the authors, using both Minimap2 and BWA. Read abundances were used as a proxy for relative cell abundance.
 Each resulting SAM file was indexed using SAMtools and converted to BAM format for downstream analysis. We then applied CoverM to filter mapped reads based on the following criteria:
@@ -23,3 +23,13 @@ A summary of all datasets used in this study, along with their estimated sizes, 
 | Flow Cytometry| Table with flow cytometry-based determinations of abundance and biovolume for picophytoplankton in Tara Oceans samples.| 17 KB    |
 | psbO sequence database|Fasta file containing >18,000 unique psbO sequences covering cyanobacteria, photosynthetic protists, macroalgae, and land plants.| 11.8 MB   |
 | Ocean Microbial Reference Gene Catalog v2 (OMRGC.v2)|Gene catalog and associated quantitative data from 370 marine metagenomes and 187 metatranscriptomes from Tara Oceans Expedition.| ~ 30 GB      |
+
+### Comparison Analysis
+We first evaluated which mapping tool performed better by testing both on the 5–20 µm size fraction. BWA recovered slightly more reads than Minimap2 overall. Most of the reads missed by Minimap2 belonged to other eukaryotic phytoplankton groups, whereas BWA retrieved a higher number of Trichodesmium reads. Therefore, all he following analyssi has been perfomed using BWA.
+![reads minimap vs bwa](https://github.com/serenaneg/psbO_bioinfo_final/blob/fc9cba0073b20ecc2f90fcbedc8744fbe0272cb5/plots/reads_minimap_bwa.png)
+
+#### Comparison between reads counts
+<p float="left">
+  <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/fc9cba0073b20ecc2f90fcbedc8744fbe0272cb5/plots/reference_reads.png" width="45%" />
+  <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/fc9cba0073b20ecc2f90fcbedc8744fbe0272cb5/plots/reads_bwa.png" width="45%" />
+</p>
