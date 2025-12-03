@@ -73,8 +73,8 @@ Our results
  
 ### Biogeography
  <p float="center">
-<img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/84cb8c3d721961658e38cf6bf8a5acf8b162b081/plots/biogeography_ref.pdf" width="45%" />
-<img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/84cb8c3d721961658e38cf6bf8a5acf8b162b081/plots/biogeography_replicated.pdf" width="45%" />
+<img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/db742cb0e75890347a8fbd5b8d3585b810f725be/plots/biogeography_ref.png" width="45%" />
+<img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/db742cb0e75890347a8fbd5b8d3585b810f725be/plots/biogeography_replicated.png" width="45%" />
  </p>
  
 ## Reproducibility Issues and Conclusions
