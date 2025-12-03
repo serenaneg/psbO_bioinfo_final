@@ -46,7 +46,7 @@ The station-by-station comparison showed good agreement between our results and 
 </p>
 
 ### Scatterplots
--- Scatterplots size 0.8-5$\mu$m psbO read counts vs Flow Cytometry counts (left column) and psbO derived biovolumne vs Flow Cytometry counts (right columns).
+-- Scatterplots size 0.8-5$\\mu$m psbO read counts vs Flow Cytometry counts (left column) and psbO derived biovolumne vs Flow Cytometry counts (right columns).
 
 Paper's reference
 <p float="center">
@@ -60,13 +60,15 @@ Our results
   <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/ddd58bbb8bc30bef6e3ebf72d6028abd000ea485/plots/psbO_vs_flow_biovolume_08-5um.png" width=49% />
  </p> 
 
- -- Scatterplots size 20-180$\mu$m psbO read counts vs Optical Microscopy.
+ -- Scatterplots size 20-180$\\mu$m psbO read counts vs Optical Microscopy.
 
  Paper's reference
-
+  <p float="center">
+    <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/3d268952dca27fbc64709422bd05c28259ee439c/plots/psbO_vs_optMicr_counts_20-180um_ref.png" width="80%" />
+  </p>
  Our results 
  <p float="center">
-  <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/d1ba4d8e0034e69755e479fdc57ffa5bbd0a4161/plots/psbO_vs_optMicr_counts_20-180um.png" width="49%" />
+  <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/d1ba4d8e0034e69755e479fdc57ffa5bbd0a4161/plots/psbO_vs_optMicr_counts_20-180um.png" width="80%" />
  </p>
  
 ### Biogeography
