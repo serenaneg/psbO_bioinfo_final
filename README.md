@@ -57,7 +57,8 @@ The large size fraction had the most missing stations, which affected the broade
 ### Scatterplots
 Overall, the agreement between our results and those reported in the study is very strong. Both r and statistically significant p-values (except for Other cyanobacteria) support the authors’ conclusion that psbO is a reliable metric for estimating abundance compared to traditional methods. The same conclusion extends to the biovolume analysis, where, as noted in the original paper, correlations are slightly weaker than for abundance. We therefore concur that psbO provides a more robust measure of community abundance than biovolume.
 
--- Scatterplots size 0.8-5 um psbO read counts vs Flow Cytometry counts (left column) and psbO derived biovolumne vs Flow Cytometry counts (right columns). % is relative to the total psbO reads within the size fraction.
+-- **Scatterplots size 0.8-5 µm** psbO read counts vs Flow Cytometry counts (left column) and psbO derived biovolumne vs Flow Cytometry counts (right columns). % is relative to the total psbO reads within the size fraction.
+
 Paper's reference
 <p float="center">
   <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/ddd58bbb8bc30bef6e3ebf72d6028abd000ea485/plots/psbO_vs_flow_counts_08-5um_ref.png" width="49%" />
@@ -70,7 +71,7 @@ Our results
   <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/ddd58bbb8bc30bef6e3ebf72d6028abd000ea485/plots/psbO_vs_flow_biovolume_08-5um.png" width=49% />
  </p> 
 
- -- Scatterplots size 20-180 um psbO read counts vs Optical Microscopy. % is relative to the total psbO reads within the size fraction.
+ -- **Scatterplots size 20-180 µm** psbO read counts vs Optical Microscopy. % is relative to the total psbO reads within the size fraction.
 Overall, the data distributions between the two analyses are very similar. However, because the sample size is small, even minor variations can lead to large changes in the statistical metrics, which explains why both our p-values and those reported by the authors are relatively large. In some cases—such as dinoflagellates—we do not even recover a positive correlation coefficient, reflecting the sensitivity of the statistics to limited sampling.
 
 Finally, the same analysis could not be performed for the 5–20 µm size fraction because the corresponding reads table was not made available.
