@@ -1,6 +1,6 @@
 # psbO_bioinfo_final
 
-## A "robust" approach to estimate relative phytoplankton cell abundances
+## psbO: a new gene marker for estimating phytoplankton abundances from metagenomes
 
 Metabarcoding of rRNA genes (16S/18S) is widely used to estimate microbial community composition, but is limited by PCR amplification biases caused by mismatches between universal primers and the target sites of certain species, as well as variability in marker gene copy number across taxa, which can lead to poor correlations between observed rRNA gene abundance and actual abundance or biomass. To address these limitations, [Pierella Karlusich et al. (2023)](https://onlinelibrary.wiley.com/doi/epdf/10.1111/1755-0998.13592) propose a PCR-free sequencing method for evaluating phytoplankton community diversity by using a newly described and verified genetic marker, psbO. PsbO is a single-copy core photosynthetic gene that codes for an extrinsic subunit of photosystem II (PSII). This protein has been shown to be universally present across both prokaryotic and eukaryotic photosynthetic organisms and can be used to assess taxonomy with high fidelity. 
 
@@ -33,22 +33,21 @@ We first evaluated which mapping tool performed better by testing both on the 5�
 </p>
 
 #### Comparison between read counts
-Our comparison shows good agreement for the largest size fraction, although we underestimate diatoms because one station in the Strait of Gibraltar is missing (see Biogeography figure). Interestingly, this is also the fraction for which the two analyses are most comparable, despite having the greatest number of missing stations. Overall, our counts show a higher contribution of haptophytes; removing these would increase the relative proportion of Synechococcus. For the smallest size fraction, we observe elevated pelagophytes and proportionally fewer Synechococcus, but still an overrepresentation of haptophytes. In the mid–size fraction, we again underestimate diatoms due to the missing Gibraltar station and show a slightly lower abundance of Trichodesmium.
+In general, our results reproduce the main patterns of variability in the phytoplankton community across the three selected size classes. The strongest agreement occurs in the largest size fraction, where we observe only a slight overestimation of Dinoflagellates and an underestimation of Haptophytes. Interestingly, despite this fraction having the greatest number of missing stations between the reference dataset and ours, it still shows the best overall correspondence.
+In the smallest size fraction, our analysis appears to miss a substantial number of Synechococcus reads, while showing higher contributions from Pelagophytes and Haptophytes. If these groups were more consistent with the reference results, the relative proportion of Synechococcus would likely increase.
+For the medium size fraction, we again underestimate diatoms—largely because our dataset lacks a key station near the Strait of Gibraltar (see Biogeography maps), which skews the read distribution. We also find a slightly lower abundance of Trichodesmium compared to the reference data.
 <p float="center">
   <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/fc9cba0073b20ecc2f90fcbedc8744fbe0272cb5/plots/reference_reads.png" width="50%" />
   <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/fc9cba0073b20ecc2f90fcbedc8744fbe0272cb5/plots/reads_bwa.png" width="49%" />
 </p>
 
-The station-by-station comparison showed good agreement between our results and those reported by the authors. However, not all sample stations were available on the HPC, and due to time and storage constraints, we chose not to download the additional missing samples.
+The station-by-station comparison showed generally strong agreement between our results and those reported by the authors, indicating that we were largely successful in reproducing their analysis. However, not all stations were available on the HPC, and due to time and storage constraints, we did not download the missing samples. These gaps affected our ability to fully match the reference results, as the presence or absence of specific stations can substantially influence total read counts and overall community proportions.
 
-On a station by station, fine stations, we did a good job in reprecating the analysis and good comparison, however, we didn't always have the same stations there were few sample that biased the results for the results and wherethe we had or not that samples affets our capability in reproducing the reustls.
+For the small size fraction, agreement was good overall, though Prochlorococcus tended to be underestimated. Notably, the close match in Haptophyte abundance suggests that one of the authors’ stations may have contained exceptionally high Synechococcus reads, skewing their total counts for this species.
 
+In the mid-size fraction, the correspondence was almost identical, with the main differences occurring at station 18—where we slightly underestimated Diatoms and overestimated other Eukaryotic phytoplankton. Moreover, from this plot is now obvious how missing station 6 from our dataset explains the discrepancy in total read counts, given its very high abbundance in Diatoms.
 
-Small size fraction: good greement for the most part, pro under estimated but intestring hapt looks similar which might mean that one of their stations had very high reads of synechochocossu which skewed the results for the total reads counts.
-
-Mid Size class: almost identiycal agreement, station 32 under estimating diatoms and overest  estimaing hapt. However, missing station 6 is the reason why we have different total reds counts.
-
-Large size fraction: missing a lot more station, which affect the picture, but for the stations we replicate the general trends. Maybe not the same number but we;re replicating the main patterns eg. station 24 just diat and dinoflageklates and sta 18 18 big chnck of other euks. Station 30 stands out for great matching.
+The large size fraction had the most missing stations, which affected the broader patterns; nevertheless, for the stations we were able to compare, we reproduced the main trends. For example, station 25 was dominated by Diatoms and Dinoflagellates only, in both analyses, and station 18 showed similar high contributions from other eukaryotes. Station 30, in particular, displayed an excellent match between the two datasets.
 <p float="center">
   <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/985f48bdf3a042c69f33a4da3962eec03e01492a/plots/byStation_reads_08-5.png" width="70%" />
   <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/985f48bdf3a042c69f33a4da3962eec03e01492a/plots/byStation_reads_5-20.png" width="70%" />
@@ -56,9 +55,9 @@ Large size fraction: missing a lot more station, which affect the picture, but f
 </p>
 
 ### Scatterplots
-In general, the overall agreement is really good. Larger p-values can be explained by the fact that we had a less number of stations. We support their conclusion that psbO is a good metric for abundance compared to traditional methods. R values are high eccept for cyanobacteria and p-values are always singificant. Same conlcusion can be extended to the biovolume analysis. As the paper found, the correlation is slightly worst with biovolume.  We therefore concur with thei conclusion that psbO is a better metric for reads abbundance than biovolume.
+Overall, the agreement between our results and those reported in the study is very strong. Both r and statistically significant p-values (except for Other cyanobacteria) support the authors’ conclusion that psbO is a reliable metric for estimating abundance compared to traditional methods. The same conclusion extends to the biovolume analysis, where, as noted in the original paper, correlations are slightly weaker than for abundance. We therefore concur that psbO provides a more robust measure of community abundance than biovolume.
 
--- Scatterplots size 0.8-5 um psbO read counts vs Flow Cytometry counts (left column) and psbO derived biovolumne vs Flow Cytometry counts (right columns).
+-- Scatterplots size 0.8-5 um psbO read counts vs Flow Cytometry counts (left column) and psbO derived biovolumne vs Flow Cytometry counts (right columns). % is relative to the total psbO reads within the size fraction.
 Paper's reference
 <p float="center">
   <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/ddd58bbb8bc30bef6e3ebf72d6028abd000ea485/plots/psbO_vs_flow_counts_08-5um_ref.png" width="49%" />
@@ -71,8 +70,10 @@ Our results
   <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/ddd58bbb8bc30bef6e3ebf72d6028abd000ea485/plots/psbO_vs_flow_biovolume_08-5um.png" width=49% />
  </p> 
 
- -- Scatterplots size 20-180 um psbO read counts vs Optical Microscopy.
-Overall,the data distribution looks similar, but due small sample size the, minor variation cuses lareg variation in the statistic a and both our and their p value are large and someting is not even find a positive r (dinoflagellates)
+ -- Scatterplots size 20-180 um psbO read counts vs Optical Microscopy. % is relative to the total psbO reads within the size fraction.
+Overall, the data distributions between the two analyses are very similar. However, because the sample size is small, even minor variations can lead to large changes in the statistical metrics, which explains why both our p-values and those reported by the authors are relatively large. In some cases—such as dinoflagellates—we do not even recover a positive correlation coefficient, reflecting the sensitivity of the statistics to limited sampling.
+
+Finally, the same analysis could not be performed for the 5–20 µm size fraction because the corresponding reads table was not made available.
 
  Paper's reference
   <p float="center">
@@ -84,15 +85,29 @@ Overall,the data distribution looks similar, but due small sample size the, mino
  </p>
  
 ### Biogeography
-The station not too fat off, but major trands are visible between both, for instance the smallest size fraction, both we have wide spread of synechococcus; in the midium size fraction is clear the missing of iatoms from one station, but overall we;re repridcitng the paptern where dinoflagellates are the most abundant sepecies. Finally, for large size fraction we have some over estimation of haptophytes and in general missing some diversity that they have, out is mostly dominated by dinoflageltes, when instead they had more varibalily (e.g. more diatomes and happt in the east med). IN general we're understainamted chlorophytes  over estimating hapt. 
+Overall, the main variability patterns are well captured across all size fractions, and the major trends are consistent between the two analyses. In the smallest size fraction, both datasets show a wide spread of Synechococcus, indicating good agreement in the dominant groups. In the medium size fraction, the absence of diatoms at one missing station is clearly reflected in our results, yet the overall pattern is still reproduced, with dinoflagellates emerging as the most abundant group in both analyses. For the large size fraction, we tend to overestimate haptophytes and miss some of the diversity present in the reference dataset; our results are more strongly dominated by dinoflagellates, whereas the authors observed greater variability, including higher contributions from diatoms and haptophytes in the eastern Mediterranean.
+More broadly, we tend to underestimate chlorophytes and overestimate haptophytes, but the key community-level patterns remain consistent.
  <p float="center">
 <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/db742cb0e75890347a8fbd5b8d3585b810f725be/plots/biogeography_ref.png" width="45%" />
 <img src="https://github.com/serenaneg/psbO_bioinfo_final/blob/db742cb0e75890347a8fbd5b8d3585b810f725be/plots/biogeography_replicated.png" width="45%" />
  </p>
  
 ## Reproducibility Issues and Conclusions
-- Data Download: 75%. Generally the data were available and they were available for clarifications and shared their raw reds data, but they were not clear in pointing out the resources aand was left to the redeard to figure out the correct file. Also, for Optical Miscriscopy they didn't make available the reads table for the medium size but only 20-180, which in additoin didnt have biovolume information, therefore we weren't able to calculate that for the larger size fractions. Missin stationgs from the HPC for some fraxctions.
-- Mapping/Filtering: 30%. They mentioned whihc tool and the version but no indication about filering which was downstream, dutim filtering paramamter from custim develped bamFilter tool which was not kept updated. Parametes were mentioned only in very high jargon and not helpsul fro data relplication.
-- Analysis. 'Everythin was relative'.They did not decribe how they calculated RPKM and whwn they did mention rpkm it was not clear what they used rpkm for (e.g. relative abb within a station or all station). For the scatter plots they had % relative reads but they never exlain relative to what, id the station, the sample, the total size abundance, therefore we decied to do % relative to the total psbO reads within a give size fraction
+- **Data Download (75% score)**: most datasets were accessible, and the authors were responsive and willing to share raw read files when contacted. However, the data locations were not clearly documented, leaving readers to determine the correct files on their own. In addition, key resources were missing: the optical microscopy reads table for the 5–20 µm size fraction was not available, and the 20–180 µm fraction lacked biovolume information, preventing biovolume calculations for the larger classes. Several stations were also missing from the HPC environment, which caused further limiting replication.
+- **Mapping and Filtering (50% score)**: Although the authors stated which mapping tools and versions were used, they did not describe the downstream filtering steps. These relied on a custom “bamFilter” tool that is no longer maintained (therefore we were not able to used because of versions too old), and the parameters were reported only in highly technical jargon, making them difficult to interpret or reproduce.
+- **Analysis Workflow (30% score)**: many analytical steps were insufficiently described. The authors did not explain how RPKM was calculated, nor what their relative-abundance percentages were normalized against (station-level totals? sample totals? size-class totals?). To ensure internal consistency, we defined relative abundance as the percentage of total psbO reads within each size fraction.
+- **Lack of Code or Workflow Sharing (0% score)**: No GitHub, Zenodo, or other code and data repository was provided. Not acceptable for a 2022 bioinformatics paper and a major issue to reproducibility!
+- **Author Responsiveness 90%**: Despite these issues, the corresponding author was helpful and responsive when contacted for clarification. Therefore, corresponding author were actully corresponding.
+
+
+### Conclusion
+Although we were not able to reproduce the exact numerical results, we successfully replicated the main variability patterns across size fractions and taxa. The analysis proved to be highly sensitive to methodological choices—such as normalization metrics, filtering parameters, and station availability—underscoring the need for thorough documentation. Missing just a few samples, especially if they represent highly divergent communities, can substantially shift the results and alter community-level interpretations.
+<br>
+Therefore, this project leaves us with these main takeaways:
+- Document every step of the workflow
+- Explicitly define all variables and calculations
+- Provide clear guidance for data access
+- Maintain a public code repository (e.g., GitHub)
+- Never assume that readers will intuit your methods.
 
 
