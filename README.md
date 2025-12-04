@@ -111,4 +111,6 @@ Therefore, this project leaves us with these main takeaways:
 - Maintain a public code repository (e.g., GitHub)
 - Never assume that readers will know a priori your methods.
 
+[The code for these figure can be found in the Jupyter Notebooks and R Scripts inside `scripts\`.]
+
 
