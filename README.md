@@ -98,7 +98,7 @@ More broadly, we tend to underestimate chlorophytes and overestimate haptophytes
 - **Mapping and Filtering (50% score)**: Although the authors stated which mapping tools and versions were used, they did not describe the downstream filtering steps. These relied on a custom “bamFilter” tool that is no longer maintained (therefore, we were not able to use it because of versions too old), and the parameters were reported only in highly technical jargon, making them difficult to interpret or reproduce.
 - **Analysis Workflow (30% score)**: many analytical steps were insufficiently described. The authors did not explain how RPKM was calculated, nor what their relative-abundance percentages were normalized against (station-level totals? sample totals? size-class totals?). To ensure internal consistency, we defined relative abundance as the percentage of total psbO reads within each size fraction.
 - **Lack of Code or Workflow Sharing (0% score)**: No GitHub, Zenodo, or other code and data repository was provided. Not acceptable for a 2022 bioinformatics paper and a major issue for reproducibility!
-- **Author Responsiveness 90%**: Despite these issues, the corresponding author was helpful and responsive when contacted for clarification. Therefore, the corresponding authors were actually corresponding.
+- **Author Responsiveness (90% score)**: Despite these issues, the corresponding author was helpful and responsive when contacted for clarification. Therefore, the corresponding authors were actually corresponding.
 
 
 ### Conclusion
