@@ -109,6 +109,6 @@ Therefore, this project leaves us with these main takeaways:
 - Explicitly define all variables and calculations
 - Provide clear guidance for data access
 - Maintain a public code repository (e.g., GitHub)
-- Never assume that readers will intuit your methods.
+- Never assume that readers will know a priori your methods.
 
 
