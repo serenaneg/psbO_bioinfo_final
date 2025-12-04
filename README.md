@@ -101,9 +101,9 @@ More broadly, we tend to underestimate chlorophytes and overestimate haptophytes
 - **Author Responsiveness (90% score)**: Despite these issues, the corresponding author was helpful and responsive when contacted for clarification. Therefore, the corresponding authors were actually corresponding.
 
 
-### Conclusion
+### Conclusions
 Although we were not able to reproduce the exact numerical results, we successfully replicated the main variability patterns across size fractions and taxa. The analysis proved to be highly sensitive to methodological choices—such as normalization metrics, filtering parameters, and station availability—underscoring the need for thorough documentation. Missing just a few samples, especially if they represent highly divergent communities, can substantially shift the results and alter community-level interpretations.
-<br>
+
 Therefore, this project leaves us with these main takeaways:
 - Document every step of the workflow
 - Explicitly define all variables and calculations
